@@ -1,12 +1,12 @@
 package desire.graph;
 
-import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
+
+import static org.junit.Assert.*;
 
 
 public class TownGraphManagerTest {
@@ -108,11 +108,6 @@ public class TownGraphManagerTest {
 		graph.deleteTown(town[2]);
 		assertEquals(false, graph.containsTown("Town_2"));
 	}
-
-	@Test
-	public void testDeleteTownSTUDENT() {
-		fail("Test not yet implemented");
-	}
 	
 	@Test
 	public void testAllTowns() {
@@ -154,12 +149,5 @@ public class TownGraphManagerTest {
 		  assertEquals("Town_8 via Road_9 to Town_10 2 mi",path.get(2).trim());
 		  assertEquals("Town_10 via Road_8 to Town_9 4 mi",path.get(3).trim());
 		  assertEquals("Town_9 via Road_7 to Town_6 3 mi",path.get(4).trim());
-
 	}
-	
-	@Test
-	public void testGetPathSTUDENT() {
-		fail("Test not yet implemented");
-	}
-
 }

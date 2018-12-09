@@ -105,11 +105,6 @@ public class GraphTest {
 		assertEquals("Road_2", roadArrayList.get(1));
 		assertEquals("Road_3", roadArrayList.get(2));
 	}
-	
-	@Test
-	public void testEdgesOfSTUDENT() {
-		fail("Test not implemented yet");
-	}
 
 	@Test
 	public void testRemoveEdge() {
@@ -151,7 +146,6 @@ public class GraphTest {
 		  }
 		  if(beginIndex != null && endIndex != null)
 		  {
-
 			  ArrayList<String> path = graph.shortestPath(beginIndex,endIndex);
 			  assertNotNull(path);
 			  assertTrue(path.size() > 0);
@@ -180,7 +174,6 @@ public class GraphTest {
 		  }
 		  if(beginIndex != null && endIndex != null)
 		  {
-
 			  ArrayList<String> path = graph.shortestPath(beginIndex,endIndex);
 			  assertNotNull(path);
 			  assertTrue(path.size() > 0);
@@ -209,7 +202,6 @@ public class GraphTest {
 		  }
 		  if(beginIndex != null && endIndex != null)
 		  {
-
 			  ArrayList<String> path = graph.shortestPath(beginIndex,endIndex);
 			  assertNotNull(path);
 			  assertTrue(path.size() > 0);
